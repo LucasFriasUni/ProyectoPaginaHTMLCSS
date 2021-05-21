@@ -1,0 +1,34 @@
+body {
+    background-image: url(./Assets/wallpaper3dprinter.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+
+    font-size: 10px;
+}
+
+#s1Title {
+    text-align: left;
+    padding-left: 3rem;
+    font-size: 3rem;
+}
+
+#s1Text {
+    text-align: left;
+    padding-left: 3rem;
+    font-size: 1rem;
+}
+
+.s1Logo {
+    /*este sería el logo del cubo, tengo que ver cómo posicionarlo arriba a la izquierda y darle el tamaño que quiero que posea, también debe estar por encima de la imagen de fondo, podría usar un posición para eso*/
+    position: absolute;
+}
+
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url(./Assets/Wallpaper3dprinterMobile.jpg);
+    }
+}
